@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psedu -class and element </title>
+    <link rel="stylesheet" href="Index.css">
+    <style>
+        /* body{
+            background-color: black;
+        } */
+a:hover{
+    color:red;
+}
+.home:hover{
+ color:green;
+}
+
+/* design input filed */
+
+.input{
+    width:300px;
+    padding: 5px;
+    border :3px solid green;
+    border-radius: 3px;
+    margin-left: 10px; 
+    font-size: 15px;
+    background-color: whitesmoke;
+/* so total width of input filed is [300+{(5+3+10)*2}]    */
+}
+.input:hover{
+     border-color: red;
+     background-color: aqua;
+}
+.input:focus{
+     border-color: yellowgreen;
+     background-color: red;
+}
+
+/* design a table */
+.table{
+    margin: 20px 10px;
+    border: 2px red solid;
+    width: 100%;;
+    max-width: 600px;
+}
+table,tr,td{
+    border: 2px green solid;
+}
+tr:nth-child(odd){
+    background-color: whitesmoke;
+}
+tr:nth-child(even){
+    background-color:burlywood ;
+}
+
+/* design a parapgraph */
+p{
+    text-shadow: 2px 0 0 red;
+}
+p::first-letter{
+    font-size: 30px;
+    color: green;
+}
+
+    </style>
+</head>
+<body>
+
+    <a href="#">Hover Me!</a>
+    <a class="home" href="#">Home!!</a>
+
+    <br><br><br>
+
+    <input type="text" placeholder="Enter Text.." class="input"/>
+
+    <table class="table">
+        <tr>
+            <td>Name:</td>
+            <td>Age:</td>
+        </tr>
+        <tr>
+            <td>Alif</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Mofiz</td>
+            <td>40</td>
+        </tr>
+    </table>
+
+    <p>This is a paragraph</p>
+
+
+    
+</body>
+</html>
