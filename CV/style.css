@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Afacad', 'Hedvig Letters Sans', 'Montserrat', 'Open Sans', 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-contact{
+    float: right;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+      font-size: 15px;
+      color: black;
+      cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: skyblue;
+}
+.info{
+    font-size: 15px;
+    color: black;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+   border: solid black 3px;
+   width: 100%;
+   margin-top: 20px;
+   border-bottom: none;
+}
+
+/* Personal Div Design */
+#personal-Section {
+    max-width: 1000px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 20px;
+}
+.left{
+    width: 30%;
+    float: left;
+    border-top-width: 30px;
+    padding-top: 30px;
+    border-left-width: 20px;
+}
+.right{
+    width: 60%;
+    float: left;
+    margin-left: 10px;
+}
+#hr{
+    border: solid black 2px;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: none;
+}
