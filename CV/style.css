@@ -66,9 +66,9 @@ hr{
 .left{
     width: 30%;
     float: left;
-    border-top-width: 30px;
+    /* border-top-width: 30px;
     padding-top: 30px;
-    border-left-width: 20px;
+    border-left-width: 20px; */
 }
 .right{
     width: 60%;
@@ -81,3 +81,83 @@ hr{
     margin-top: 20px;
     border-bottom: none;
 }
+/* work experience design */
+
+.section-2{
+    max-width: 1000px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 20px;
+}
+.content-2{
+
+}
+.left-div-2{
+ width: 30%;
+ float: left;
+ 
+}
+.right-div-2{
+    width: 70%;
+    float: left;
+}
+.right-div-2-right{
+    width: 60%;
+    float: left;
+}
+.left-div-2-left{
+    width: 40%;
+    float: right;
+}
+.work-li{
+    width: 70%;
+    float: right;
+    text-align: justify;
+}
+.left-div-3{
+    width: 28%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* padding-top: 20px;
+    padding-left: 20px; */
+}
+.right-div-3{
+    width: 66%;
+    float: right;
+    padding: 12px;
+}
+.project-li{
+    width: 100%;
+    text-align: justify;
+}
+.input{
+    margin-left: 5px;
+    /* margin-top: 5px; */
+}
+button {
+    background-color: grey;
+    color: rgb(14, 14, 14);
+    padding: 2px;
+    border: none; 
+}
+.left-div-4{
+    width: 28%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.right-div-4{
+    width: 66%;
+    float: right;
+    padding: 12px;
+}
+.bsc-div-left{
+  width: 70%;
+  float: left;
+}
+.bsc-div-right{
+  width: 30%;
+  float: right;
+}
+
