@@ -13,9 +13,6 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
-header{
-
-}
 .profile-image{
     width: 100px;
     height: 120px;
@@ -89,9 +86,7 @@ hr{
     margin: 0 auto;
     padding: 20px;
 }
-.content-2{
 
-}
 .left-div-2{
  width: 30%;
  float: left;
@@ -160,4 +155,40 @@ button {
   width: 30%;
   float: right;
 }
+.skill{
+margin: 10px;
+}
+.skillleft{
+    width: 30% ; 
+    float: left ;
+}
+.skillright{
+    width: 70% ;
+    float: right ;
+}
+.skillsetleft{
+width: 50%;
+float: left;
+}
+.skillsetright{
+    width: 50%;
+    float: right;
+}
+footer{
+    width: 100%;
+    background-color: rgb(107, 106, 106);
+    padding-top: 20px;
+    padding-right: 4px;
+}
+.footer{
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+.footer:hover{
+    color: brown;
+}
+
+
+
 
