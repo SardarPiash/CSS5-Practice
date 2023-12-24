@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow and Tooltip</title>
+</head>
+<style>
+.overflow-hidden{
+    width: 250px;
+    height: 100px;
+    border: 2px green solid;
+    overflow: hidden;
+}
+.overflow-scroll{
+    width: 250px;
+    height: 100px;
+    border: 2px green solid;
+    overflow: scroll;
+}
+.overflow-auto{
+    width: 250px;
+    height: 100px;
+    border: 2px green solid;
+    overflow: auto;
+    /* auto take scroll when content goes to outside of div */
+}
+.tooltip{
+position: relative;
+}
+.tooltip-text{
+    width: 150px;
+    background-color: rgb(136, 129, 80);
+    color: black;
+    border-radius: 3px;
+    border: 1px solid red;
+    position: absolute;
+    top: 28px;
+    left: 35px;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+}
+</style>
+<body>
+<div>
+<a href="#" class="tooltip">
+    Facebook
+    <span class="tooltip-text">Facebook is a worst social media</span>
+</a>
+</div>
+<p></p>
+<div class="overflow-hidden">
+<p>The various codes of football share certain common elements and can be grouped into two main classes of football: carrying codes like American football, Canadian football, Australian football, rugby union and rugby league, where the ball is moved about the field while being held in the hands or thrown, and kicking codes such as association football and Gaelic football, where the ball is moved primarily with the feet, and where handling is strictly limited.[10]</p>
+</div>
+<p></p>
+<div class="overflow-scroll">
+    <p>The various codes of football share certain common elements and can be grouped into two main classes of football: carrying codes like American football, Canadian football, Australian football, rugby union and rugby league, where the ball is moved about the field while being held in the hands or thrown, and kicking codes such as association football and Gaelic football, where the ball is moved primarily with the feet, and where handling is strictly limited.[10]</p>
+    </div>
+<p></p>
+<div class="overflow-auto">
+    <p>The various codes of football share certain common elements and can be grouped into two main classes of football: carrying codes like American football, Canadian football, Australian football, rugby union and rugby league, where the ball is moved about the field while being held in the hands or thrown, and kicking codes such as association football and Gaelic football, where the ball is moved primarily with the feet, and where handling is strictly limited.[10]</p>
+</div>
+</body>
+</html>
